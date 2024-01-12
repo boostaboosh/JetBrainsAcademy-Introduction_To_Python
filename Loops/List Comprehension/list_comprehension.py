@@ -7,5 +7,5 @@ for i in starting_numbers:
 print(my_inefficient_list)
 
 
-my_efficient_list = ['Use list comprehension to build a new list']
+my_efficient_list = [number + 10 for number in my_inefficient_list]
 print(my_efficient_list)
